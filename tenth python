@@ -1,1 +1,7 @@
-
+#tenth one
+print("tell me another integer")
+t = int(input())
+print("tell me an integer for the last time, i will divide them")
+f = int(input())
+div = t / f
+print(div)
