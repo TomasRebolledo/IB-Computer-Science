@@ -1,1 +1,4 @@
-
+#sixth one
+print("tell us a boolean, true or false")
+fake = bool(input())
+print("you said it was",fake)
