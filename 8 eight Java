@@ -1,1 +1,14 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //eight one
+        System.out.println("tell me one integer number again");
+        int x = keyss.nextInt();
+        System.out.println("tell me another integer number, i will substract the first one from the second one");
+        int y = keyss.nextInt();
+        int substraction = y - x;
+        System.out.println(substraction);
+    }
+}
