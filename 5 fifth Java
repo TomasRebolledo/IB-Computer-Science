@@ -1,1 +1,11 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //fifth one
+        System.out.println("now tell me a single character");
+        char caracter = keyss.next().charAt(0);
+        System.out.println ("you said"+caracter);
+    }
+}
