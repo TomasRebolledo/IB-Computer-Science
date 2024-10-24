@@ -1,1 +1,4 @@
-
+#trid one
+print("give me a number")
+integer = int(input())
+print("you said",integer)
