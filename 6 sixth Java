@@ -1,1 +1,11 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //sixth one
+        System.out.println(" tell me a boolean");
+        boolean fake = keyss.nextBoolean();
+        System.out.println("you said"+fake);
+    }
+}
