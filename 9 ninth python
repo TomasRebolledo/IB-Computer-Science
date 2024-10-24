@@ -1,1 +1,7 @@
-
+#ninth one
+print("tell me another integer")
+z = int(input())
+print ("tell me an integer  again, i will multiply them")
+w = int(input())
+mult = z * w
+print(mult)
