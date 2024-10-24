@@ -1,1 +1,14 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //ninth one
+        System.out.println("tell me one integer number once again");
+        int z = keyss.nextInt();
+        System.out.println("tell me another integer number, i will multiply them");
+        int w = keyss.nextInt();
+        int mult = z*w;
+        System.out.println(mult);
+    }
+}
