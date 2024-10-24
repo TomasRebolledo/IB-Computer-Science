@@ -1,1 +1,14 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        // secod one
+        
+        System.out.println("tell me something");
+        Scanner keyss = new Scanner (System.in);
+        String algo = keyss.next();
+        System.out.println("you said"+algo);
+    }
+}
+        
