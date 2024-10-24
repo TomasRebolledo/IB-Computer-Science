@@ -1,1 +1,14 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //tenth one
+        System.out.println("tell me one integer number for the last time");
+        int t = keyss.nextInt();
+        System.out.println("tell me another integer number, i will divide them ");
+        int f = keyss.nextInt();
+        int divd = t / f;
+        System.out.println(divd);
+    }
+}
