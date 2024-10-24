@@ -1,1 +1,11 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //third one
+        System.out.println("tell me an integer number");
+        int integer = keyss.nextInt();
+        System.out.println("you said"+integer);
+    }
+}
