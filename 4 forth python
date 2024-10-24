@@ -1,1 +1,5 @@
+#fourth one
+print("give me a decimal number")
+decimal = float(input())
+print ("you said",decimal)
 
