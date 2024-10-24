@@ -1,1 +1,14 @@
-
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        //seventh
+        System.out.println("tell me one integer number");
+        int a = keyss.nextInt();
+        System.out.println("tell me another integer number, i will sum both");
+        int b = keyss.nextInt();
+        int sum = a + b;
+        System.out.println(sum);
+    }
+}
