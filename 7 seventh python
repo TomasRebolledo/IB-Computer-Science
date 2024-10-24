@@ -1,1 +1,7 @@
-
+#seventh one
+print("tell me one integer")
+a = int(input())
+print("tell me another integer. y will sum them")
+b = int(input())
+sum =a + b
+print(sum)
