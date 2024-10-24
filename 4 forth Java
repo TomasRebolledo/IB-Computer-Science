@@ -1,0 +1,11 @@
+import java.util.Scanner; 
+public class UnoADiez
+{
+    public static void main (String args [])
+    {
+        // forth one
+        System.out.println("tell me a decimal number");
+        double decimal = keyss.nextDouble();
+        System.out.println("you said"+ decimal);
+    }
+}
