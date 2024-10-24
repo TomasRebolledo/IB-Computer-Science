@@ -1,1 +1,7 @@
-
+#eighth one
+print("tell me another integer")
+x = int(input())
+print("tell me an integer again,i will rest the firstone to the second one")
+y = int(input())
+rest = x - y
+print (rest)
