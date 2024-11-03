@@ -1,0 +1,35 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      //17
+       System.out.println("tell me how much money you make in a year");
+       double salary = ky.nextDouble();
+       if (salary <= 10000 && salary >0)
+       {
+           salary = salary*0.01;
+           System.out.println("you have to pay 1% in taxes, that is about" + "  "+salary);
+       }
+       else if (salary > 10000 && salary <= 20000)
+       {
+           salary = salary * 0.05;
+           System.out.println("you have to pay 5% in taxes, that is about" + "  "+salary);
+       }
+       else if (salary > 20000 && salary <=40000)
+       {
+           salary = salary * 0.1;
+           System.out.println("you have to pay 10% in taxes, that is about" + "  "+salary);
+       }
+       else if ( salary > 40000  && salary <=100000)
+       {
+           salary = salary * 0.15;
+           System.out.println("you have to pay 15% in taxes, that is about" + "  "+salary);
+       }
+       else 
+       {
+           salary = salary * 0.2;
+           System.out.println("you have to pay 20% in taxes now that your income is greater that 100000, that is about" + "  "+salary);
+       }
+  }
+}
