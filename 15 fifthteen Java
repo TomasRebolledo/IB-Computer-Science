@@ -1,0 +1,19 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      //15
+       System.out.println(" now tell me your age, i will see if you are able to vote");
+       int age = ky.nextInt();
+       
+       if (age >= 18 )
+       {
+           System.out.println("go ahead vote");
+       }
+       else
+       {
+           System.out.println("sorry you can not vote");
+       }
+  }
+}
