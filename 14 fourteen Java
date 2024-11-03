@@ -1,0 +1,18 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      //14
+       System.out.println("now give me a number and i will tell if it is even or odd");
+       int oddifier = ky.nextInt();
+       if (oddifier % 2 ==0)
+       {
+           System.out.println("even");
+       }
+       else
+       {
+           System.out.println("odd");
+       }
+  }
+}
