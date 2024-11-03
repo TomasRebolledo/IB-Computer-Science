@@ -1,0 +1,32 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      //18
+       System.out.println("now i am going to calculate your BMI, Body Mass Intdex");
+       System.out.println("now tell me your mass in grams");
+       int mass =ky.nextInt();
+       System.out.println("pleas tell me your height in cm");
+       int height =ky.nextInt();
+       double BMI = ((mass/(height*height))*10);
+       System.out.print("your IBM is" + "  "+ BMI);
+       System.out.println("this means that you are");
+       if (BMI <= 18.5 && BMI >0)
+       {
+           System.out.println("underweight");
+       }
+       else if (BMI > 18.5 && BMI < 25)
+       {
+           System.out.println("normal weight");
+       }
+       else if (BMI >= 25 && BMI <30)
+       {
+           System.out.println(" overweight");
+       }
+       else 
+       {
+           System.out.println("Obese");
+       }     
+  }
+}
