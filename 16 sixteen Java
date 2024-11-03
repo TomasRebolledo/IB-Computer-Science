@@ -1,0 +1,49 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      //16
+       System.out.println("now tell me an integer");
+       int inger1 = ky.nextInt();
+       System.out.println("now tell me another integer");
+       int inger2 = ky.nextInt();
+       if (inger1 > 0)
+       {
+           System.out.println(" first one it is possitive");
+       }
+       else if (inger1 < 0)
+       {
+           System.out.println(" first one it is negative");
+       }
+       else
+       {
+           System.out.println("they are equal");
+       }
+       if (inger2 > 0)
+       {
+           System.out.println(" second one it is possitive");
+       }
+       else if (inger2 < 0)
+       {
+           System.out.println(" second one it is negative");
+       }
+       else
+       {
+           System.out.println("they are equal");
+       }
+       if ( inger1 > inger2)
+       {
+           System.out.println(" the first number is greater"+" "+ inger1);
+           
+       }
+       else if (inger1 == inger2)
+       {
+           System.out.println(" they are equal");
+       }
+       else 
+       {
+           System.out.println(" the second number is greater" + "  "+ inger2);
+       }
+  }
+}
