@@ -1,0 +1,34 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      // 12 twelve
+       System.out.println("please enter your examn grades");
+       double grade = ky.nextDouble();
+       if (grade >=6 && grade <=7)
+       {
+           System.out.println("you get an A");
+       }
+       else if (grade >=5 && grade <=5.9)
+       {
+          System.out.println("you get a B"); 
+       }
+       else if (grade >=4 && grade <=4.9)
+       {
+          System.out.println("you get a C"); 
+       }
+       else if (grade >=3 && grade <=3.9)
+       {
+          System.out.println("you get a D"); 
+       }
+       else if (grade >=2 && grade <=2.9)
+       {
+          System.out.println("you get a E"); 
+       }
+       else 
+       {
+          System.out.println("you get a F"); 
+       }
+  }
+}
