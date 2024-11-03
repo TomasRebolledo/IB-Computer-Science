@@ -1,0 +1,123 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+      //13
+       System.out.println("now tell me a year and i will tell you if it is a leap one");
+       int year = ky.nextInt();
+       boolean leapyear;
+       if (year % 4 == 0)
+       {
+           leapyear = true;
+           if (year %100 ==0)
+           {
+               leapyear = false;
+               if (year % 400==0)
+               {
+                   leapyear = true;
+               }
+               else
+               {
+                   leapyear = false;
+               }
+           }
+           else 
+           {
+               leapyear = true;
+           }
+       }
+       else
+       {
+           leapyear = false;
+       }
+       if (leapyear == true)
+       {
+           System.out.println("this is a leap year");
+       }
+       else
+       {
+           System.out.println("this is not a leap year");
+       }
+
+  }
+}
+
+
+
+
+
+
+//or thisone also works
+
+
+
+
+import java.util.Scanner; 
+public class leapyears2
+{
+    public static void main (String args[])
+    {
+        System.out.println("now tell me a year and i will tell you if it is a leap one");
+        Scanner ky = new Scanner (System.in);
+        int year = ky.nextInt();
+        
+        if ( year %4 ==0     &&    year %100 !=0    ||     year %400 ==0)
+        {
+            System.out.println("it is a leap");
+        }
+        else
+        {
+            System.out.println("it is not leap");
+        }
+    }
+}
+
+
+
+
+//or thisone also works
+
+
+
+import java.util.Scanner; 
+public class leapyear3
+{
+    public static void main (String args[])
+    {
+        System.out.println("now tell me a year and i will tell you if it is a leap one");
+        Scanner ky = new Scanner (System.in);
+        int year = ky.nextInt();
+        boolean leapyear;
+        if (year % 4 == 0)
+       {
+           if (year %400 ==0)
+           {
+               System.out.println("this is a leap year");
+               
+           }
+           else 
+           {
+               if (year % 100==0)
+               {
+                   System.out.println("this is not a leap year");
+               }
+               else
+               {
+                   if (year % 4 ==0)
+                   {
+                       System.out.println("this is a leap year");
+                   }
+                   else
+                   {
+                       System.out.println("this is not a leap year");
+                   }
+               }
+           }
+       }
+       else
+       {
+           System.out.println("this is not a leap year");
+       }
+    }
+}
