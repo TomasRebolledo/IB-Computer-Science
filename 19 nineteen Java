@@ -1,0 +1,32 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+       //19
+       System.out.println("now tell me how much electricity units you consumed and i will tel your electricity bill");
+       int unit = ky.nextInt();
+       if (unit >0 && unit <=100)
+       {
+           unit = unit*1;
+           System.out.println("you have to pay   "+unit);
+           
+       }
+       else if (unit >100 && unit <=200)
+       {
+           unit = unit*2;
+           System.out.println("you have to pay   "+unit);
+           
+       }
+       else if ( unit >200 && unit <=300)
+       {
+           unit = unit*3;
+           System.out.println("you have to pay   "+unit);
+       }
+       else
+       {
+           unit = unit*5;
+           System.out.println("you have to pay   "+unit);
+       }
+  }
+}
