@@ -1,0 +1,28 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+       // 11 eleven
+       System.out.println("please enter a number");
+       Scanner ky = new Scanner (System.in);
+       int integer = ky.nextInt();
+       if ( integer < 0)
+       {
+           System.out.println("this number is smaller that 0, is negative");
+       }
+       else 
+       {
+           if (integer == 0)
+           {
+               System.out.println("this number is 0");
+           }
+           else
+           {
+               System.out.println("this number is greater that 0, is positive");
+               
+           }
+       }
+
+  }
+}
