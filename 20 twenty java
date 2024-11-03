@@ -1,0 +1,35 @@
+import java.util.Scanner; 
+public class onceaveinte
+{
+   public static void main( String args[])
+   {
+       //20
+       System.out.println("now tell me how much minuter you used this month for your phone");
+       double phone = ky.nextDouble();
+       if (phone >0 && phone <= 100)
+       {
+           double bill = (phone*0)+10;
+           System.out.println("your total bill is   "+bill);
+       }
+       else if ( phone >100 && phone <=200)
+       {
+           double bill = (phone*1)+10;
+           System.out.println("your total bill is   "+bill);
+       }
+       else if ( phone >200 && phone <250)
+       {
+           double bill = (phone*2)+10;
+           System.out.println("your total bill is   "+bill);
+       }
+       else if (phone >=250 && phone <=300)
+       {
+           double bill = (phone*2)+15;
+           System.out.println("your total bill is   "+bill);
+       }
+       else
+       {
+           double bill = (phone*3)+15;
+           System.out.println("your total bill is   "+bill);
+       }
+   }
+}
