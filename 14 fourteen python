@@ -1,0 +1,7 @@
+#14
+print ("tell me a number, i will tell ypu if it is even or odd")
+oddifier = float(input())
+if (oddifier%2 ==0):
+    print("it is even")
+else:
+    print("it is odd")
