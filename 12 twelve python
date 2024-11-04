@@ -1,0 +1,15 @@
+#12
+print("now tell me your exam grade")
+grade = float(input())
+if (grade >= 6 and grade<=7):
+    print("you got A")
+elif (grade >=5 and grade <=5.9):
+    print("you got a B")
+elif (grade >= 4 and grade <=4.9):
+    print("you got a C")
+elif (grade >= 3 and grade <=3.9):
+    print("you got a D")
+elif (grade >= 2 and grade <=2.9):
+    print("you got a E")
+elif (grade >= 1 and grade <=1.9):
+    print("you got a F")
