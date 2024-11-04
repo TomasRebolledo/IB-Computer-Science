@@ -1,0 +1,18 @@
+#20
+print("tell me how many minutes you spended this month on calls")
+time = float(input())
+if (time >0 and time <=100):
+    time = (time*0)+10
+    print("you have to pay  ",time)
+elif(time>100 and time<=200):
+    time = (time*0.5)+10
+    print("you have to pay  ",time)
+elif(time>200 and time <=250):
+    time = (time*0.75)+10
+    print("you have to pay  ",time)
+elif (time>250 and time <=300):
+    time = (time*0.75)+10+5
+    print("you have to pay  ",time)
+else:
+    time =(time*1)+15
+    print("you have to pay  ",time)
