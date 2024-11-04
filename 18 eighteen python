@@ -1,0 +1,17 @@
+#18
+print("i am going to calculate your BMI, so i need some data")
+print("tell me your height in meters")
+height = float(input())
+print("now tell me your mass in Kilograms")
+mass = float (input())
+BMI = mass/height**2
+if (BMI< 18.5 and BMI>0):
+    print ("you are under weight cause  ",BMI)
+else:
+    if (BMI >= 18.5 and BMI< 25):
+        print("you are normal cause  ", BMI)
+    else:
+        if (BMI>= 25 and BMI <30):
+            print("you are over weight cause  ", BMI)
+        else:
+            print("you are obese cause  ", BMI)
