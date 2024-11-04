@@ -1,0 +1,13 @@
+# 11
+print("enter a number")
+print(" i will tell if that number is positive, negative or 0")
+integer = int (input())
+if (integer > 0):
+    print("it is positive")
+
+elif (integer < 0):
+    print("it is negative")
+
+else:
+    print ("the number is 0")
+    
