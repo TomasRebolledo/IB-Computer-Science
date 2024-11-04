@@ -1,0 +1,30 @@
+#16
+
+
+print("now tell me a number")
+num1 =float(input())
+print("now tell me another number, i will see witch one is greater, or if they are equal")
+num2 = float(input())
+if (num1 > num2):
+    print("the first number is greater that the secondone  ",num1)
+elif (num2 > num1):
+    print("the second number is greater that the secondone  ",num2)
+else:
+    print("they are equal")
+
+    
+
+#16 again (with nested if)
+
+
+print("now tell me a number")
+num3 =float(input())
+print("now tell me another number, i will see witch one is greater, or if they are equal")
+num4 = float(input())
+if (num3 > num4):
+    print("the first number is greater that the secondone  ",num3)
+else:
+    if (num3 < num4):
+        print("the secondnumber is bigger that the first one  ", num4)
+    else:
+        print("they are equal, the same number")
