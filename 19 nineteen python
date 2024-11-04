@@ -1,0 +1,17 @@
+#19
+print("tel me how much electricity you spended this month")
+bill = float(input())
+if (bill<= 100 and bill >0):
+    bill = bill*1
+    print("you got to pay  ",bill)
+else:
+    if (bill>100 and bill<=200):
+        bill = bill*1.5
+        print("you got to pay  ",bill)
+    else:
+        if (bill>200 and bill<=300):
+            bill = bill*2
+            print("you got to pay  ",bill)
+        else:
+            bill = bill*3
+            print("you got to pay  ",bill)
