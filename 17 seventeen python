@@ -1,0 +1,13 @@
+#17
+print("tell me your income, i will calculate your taxes based on that")
+income = float(input())
+if (income >100000):
+    tax = income*0.3
+    print("you got to pay  ". tax)
+else:
+    if (income >=50000 and income <=100000):
+        tax = income *0.2
+        print("you got to pay  ", tax)
+    else:
+        tax = income*0.1
+        print("you got to pay  ", tax)
