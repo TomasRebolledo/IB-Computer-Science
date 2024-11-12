@@ -1,0 +1,10 @@
+#26
+print("tell us a number and we will find its factoria value")
+y = int(input())
+j =1
+ñ=1
+for t in range(1,y):
+    w = ñ*t
+    j = j*w
+
+print(j)
