@@ -1,0 +1,15 @@
+public class veintiatreinta
+{
+   public static void main (String args[])
+   {
+       //27
+       System.out.println("please enter a string value");
+       String phrase = key.nextLine();
+       for(int p=0;p < phrase.length();p++)
+       {
+           System.out.println(phrase.charAt(p));
+           
+       }
+
+  }
+}
