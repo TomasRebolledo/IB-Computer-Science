@@ -1,0 +1,5 @@
+#24
+u =10
+for t in range (1,11):
+    print(u)
+    u = u-1
