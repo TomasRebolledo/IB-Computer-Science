@@ -1,0 +1,5 @@
+#27
+print("please enter a string")
+frase = input()
+for char in frase:
+    print(char)
