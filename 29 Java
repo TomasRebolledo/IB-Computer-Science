@@ -1,0 +1,13 @@
+public class test30a20
+{
+   public static void main (String args[])
+   {
+       //29
+       int [] enteros = {1,5,89,65,35,75,3,56,86,3,4,89,4};
+       for(int t=0; t< enteros.length;t++)
+       {
+           System.out.println(enteros[t]);
+           
+       }
+    }
+}
