@@ -1,0 +1,4 @@
+#29
+Arrr =[1,4,2,43,6,3,6,8,45,34,56,78,]
+for element in Arrr:
+    print(element)
