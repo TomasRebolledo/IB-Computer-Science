@@ -1,0 +1,15 @@
+public class veintiatreinta
+{
+   public static void main (String args[])
+   {
+      //22
+       int e =0;
+       for(int y=1;y<=10;y++)
+       {
+           e = e+y;
+           System.out.println(e);
+           
+       }
+       System.out.println(e);
+   }
+}
