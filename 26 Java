@@ -1,0 +1,18 @@
+public class veintiatreinta
+{
+   public static void main (String args[])
+   {
+       //26
+       System.out.println("please enter a number and i will calculate its factorial value");
+       Scanner key = new Scanner (System.in);
+       int g = key.nextInt();
+       int m = g;
+       for(int z=1;z<=m;z++)
+       {
+           g = g*(g-1);
+          
+           
+       }
+       System.out.println(g);
+  }
+}
