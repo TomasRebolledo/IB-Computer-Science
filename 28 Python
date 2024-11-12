@@ -1,0 +1,7 @@
+#28
+l =1
+o =0
+for a in range (1,11):
+    o = o + l
+    l = l +2
+    print (o)
