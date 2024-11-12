@@ -1,0 +1,5 @@
+#25
+g=0
+for q in range (1,11):
+    g= g+2
+    print(g)
