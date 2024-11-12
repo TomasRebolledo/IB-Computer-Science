@@ -1,0 +1,17 @@
+public class veintiatreinta
+{
+   public static void main (String args[])
+   {
+       //24
+       int t =10;
+       for(int c=1;c<=10;c++)
+       {
+           System.out.println(t);
+           t = t-1;
+           
+           
+       }
+  }
+}
+
+
