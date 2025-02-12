@@ -1,0 +1,37 @@
+class Auto:
+    def __init__(self, brand="Mercedes", model="Pathfinder", velocidad=75):
+        self.brand = brand
+        self.model = model
+        self.velocidad = velocidad
+
+    def __str__(self):
+        return f"The brand of your car is: {self.brand}, the model is: {self.model}, and it is currently at: {self.velocidad} m/s"
+
+    def aceleracion(self):
+        self.velocidad += 10
+        return f"The speed has been increased by 10 m/s and is now {self.velocidad} m/s"
+
+    def frenar(self):
+        self.velocidad -= 10
+        return f"The speed has been decreased by 10 m/s and is now {self.velocidad} m/s"
+
+
+def main():
+    marca = input("Tell me the brand of your car: ")
+    modelo = input("Tell me the model of the car: ")
+    velocidad = int(input("Now the velocity of the car right now: "))
+
+    car1 = Auto("Tesla", "Fast", 40)
+    car2 = Auto(marca, modelo, velocidad)
+
+    print(car2.frenar())
+    print(car2.aceleracion())
+    print(car2.aceleracion())
+    print(car2.aceleracion())
+    print(car2.aceleracion())
+    print(car2)
+
+    if velocidad < 0:
+        velocidad = 0
+    else:
+      velocidad = velocidad
