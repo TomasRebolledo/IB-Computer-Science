@@ -47,6 +47,8 @@ public class Auto
 
 
 
+
+      
 import java.util.Scanner;
 public class AutoTester
 {
@@ -60,20 +62,24 @@ public class AutoTester
         String modelo = key.nextLine();
         System.out.println(" now the velocity of the car right now");
         int verlocity = key.nextInt();
-      
+        
+        
         Auto car1 = new Auto ("tesla","fast",40);
         Auto car2 = new Auto (marca,modelo,verlocity);
         
         car2.frenar();
         car2.aceleracion();
-
+        car2.aceleracion();
+        car2.aceleracion();
+        car2.aceleracion();
+        System.out.println(car2);
         if (verlocity <0)
         {
-            verlocity =0;   
+            verlocity =0;
         }
         else
         {
-            verlocity = verlocity;  
-        }   
-    }   
-}
+            verlocity = verlocity;
+        } 
+    }  
+}     
