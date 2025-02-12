@@ -1,0 +1,79 @@
+public class Auto
+{
+    private String brand;
+    private String model;
+    private double velocidad;
+    
+    public Auto (String brand,String model, double velocidad)
+    {
+        this.brand = brand;
+        this.model = model;
+        this.velocidad = velocidad; 
+    }
+    
+    public Auto()
+    {
+       this.brand = brand;
+       this.model = model;
+       this.velocidad = 75;
+    }
+    
+    public void Auto ()
+    {
+        this.brand = "mercedez";
+        this.model = "pathfinder";
+        this.velocidad = velocidad;
+    }
+    public String toString()
+    {
+        return ("the brand of tyour car is: "+brand+", the model is: "+model+", an is currenty at: "+ velocidad+", m/s");
+    }
+    
+    public String aceleracion ()
+    {
+        velocidad = velocidad +10;
+        return ("the speed has been increased in 10 m/s and now is"+ velocidad);
+    }
+    public String frenar()
+    {
+        velocidad = velocidad -10;
+        return ("the speed has been decreased in 10 m/s and now is"+ velocidad);
+    }
+}
+
+
+
+
+
+
+
+import java.util.Scanner;
+public class AutoTester
+{
+    public static void main (String args [])
+    {
+        Scanner key = new Scanner (System.in);
+        
+        System.out.println("tell me the brand of your car");
+        String marca = key.nextLine();
+        System.out.println("tell me the model of the car");
+        String modelo = key.nextLine();
+        System.out.println(" now the velocity of the car right now");
+        int verlocity = key.nextInt();
+      
+        Auto car1 = new Auto ("tesla","fast",40);
+        Auto car2 = new Auto (marca,modelo,verlocity);
+        
+        car2.frenar();
+        car2.aceleracion();
+
+        if (verlocity <0)
+        {
+            verlocity =0;   
+        }
+        else
+        {
+            verlocity = verlocity;  
+        }   
+    }   
+}
