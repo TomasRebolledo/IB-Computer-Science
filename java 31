@@ -1,0 +1,64 @@
+public class Video
+{
+    private String name;
+    private String consola;
+    private int timesPlayed;
+    
+    public Video (String name, String consola, int timesPlayed)
+    {
+      this.name = name;
+      this.consola =consola;
+      this. timesPlayed =timesPlayed;
+    }
+    public Video ()
+    {
+        this.name = "bumpy road";
+        this.consola = "phone";
+        this.timesPlayed = 567;
+    }
+    public void callOfDuty()
+    {
+        this.name = "call of duty";
+        this.consola = "play Station";
+        this.timesPlayed =378;
+    }
+    public void minecraft()
+    {
+        this.name = "Minecraft";
+        this.consola = "phone";
+        this.timesPlayed =1254;
+    }
+    
+    public String toString()
+    {
+        return ("the name of the game is: "+ name+ ", the console is: "+ consola+ ", and the times played is: "+ timesPlayed);
+        
+    }
+}
+
+
+
+
+
+
+
+import java.util.Scanner;
+public class VideoTester
+{
+    public static void main (String args [])
+    {
+        Scanner key = new Scanner (System.in);
+        Video j1 = new Video ("falppy bird", "phone", 17);
+        String name,consola;
+        
+        System.out.println(" enter the name of the game you most like");
+        String nombre =key.nextLine();
+        System.out.println("now gieve me the console i  witch you play it");
+        String console =key.nextLine();
+        System.out.println("now tell me how much times have you played it");
+        int numero = key.nextInt();
+        
+        Video j2 = new Video(nombre,console,numero);
+        System.out.println(j2);
+    }
+}
