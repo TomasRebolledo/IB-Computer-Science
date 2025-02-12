@@ -1,0 +1,32 @@
+class Video:
+    def __init__(self, name="bumpy road", consola="phone", times_played=567):
+        self.name = name
+        self.consola = consola
+        self.times_played = times_played
+
+    def call_of_duty(self):
+        self.name = "Call of Duty"
+        self.consola = "PlayStation"
+        self.times_played = 378
+
+    def minecraft(self):
+        self.name = "Minecraft"
+        self.consola = "phone"
+        self.times_played = 1254
+
+    def __str__(self):
+        return f"The name of the game is: {self.name}, the console is: {self.consola}, and the times played is: {self.times_played}"
+
+
+def main():
+    name = input("Enter the name of the game you most like: ")
+    consola = input("Now give me the console on which you play it: ")
+    times_played = int(input("Now tell me how many times you have played it: "))
+
+    j1 = Video("Flappy Bird", "phone", 17)
+    j2 = Video(name, consola, times_played)
+    print(j2)
+
+
+if __name__ == "__main__":
+    main()
